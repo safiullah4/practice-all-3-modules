@@ -6,19 +6,43 @@
 #navbar-bg-color{
     background-color: blueviolet;
     height: 3.5rem;
-    
+    border: 2px solid blueviolet;
+    box-shadow: 2px 2px 8px 2px black;
 
 }
 
 #remove-decoration{
     display: flex;
+    justify-content: space-evenly;
     /* horizontally center  text-align: center;*/
     text-align: center;
-    justify-content: space-evenly;
         /* need to set height for align atems. vertically center align-items: center;  */
     align-items: center; 
     height: 100%;  
     list-style-type: none;
     font-weight: 700;
     color: aliceblue;
+}
+h1{
+    display: inline-block;
+    background-color: rgba(58, 56, 53, 0.129);
+    margin-top: 7vh;
+    color: black;
+    padding: 0 0.8em;
+    margin-bottom: 2vh;
+    border: 2px solid blueviolet;
+    box-shadow: 2px 2px 8px 2px black;
+}
+#about-form{
+    background-color: rgba(58, 56, 53, 0.129);
+    /* border: 2px solid blueviolet; */
+    /* box-shadow: 2px 2px 8px 2px black; */
+    text-align: justify;
+    margin: 0 0.5em;
+    padding: 10px;
+}
+span{
+    color: rgb(129, 1, 234);
+    text-transform: uppercase;
+    font-weight: 500;
 }
