@@ -15,8 +15,7 @@
     display: flex;
     justify-content: space-evenly;
     /* horizontally center  text-align: center;*/
-    text-align: center;
-        /* need to set height for align atems. vertically center align-items: center;  */
+        /* need to set height for align atems and parent should have display:flex. vertically center align-items: center;  */
     align-items: center; 
     height: 100%;  
     list-style-type: none;
@@ -45,4 +44,29 @@ span{
     color: rgb(129, 1, 234);
     text-transform: uppercase;
     font-weight: 500;
+}
+
+
+h3{
+    display: flex;
+    justify-content: left;
+    /* width: 55vw; */
+    /* background-color: rgba(58, 56, 53, 0.129); */
+    margin-top: 7vh;
+    color: black;
+    /* text-align: center; kaj kore na flexe only inline or block */
+    height: 2rem;
+    align-items: center;
+    /* padding: 0 0.8em; */
+    text-transform: uppercase;
+    margin-bottom: 2vh;
+    margin-left: 0.5em;
+    /* border: 2px solid blueviolet;
+    box-shadow: 2px 2px 8px 2px black; */
+}
+
+.Notice{
+    color: red;
+    text-transform: lowercase;
+    font-size: 1.2em;
 }
