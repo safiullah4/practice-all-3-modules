@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-bg-color{
+    background-color: blueviolet;
+    height: 3.5rem;
+    
+
+}
+
+#remove-decoration{
+    display: flex;
+    /* horizontally center  text-align: center;*/
+    text-align: center;
+    justify-content: space-evenly;
+        /* need to set height for align atems. vertically center align-items: center;  */
+    align-items: center; 
+    height: 100%;  
+    list-style-type: none;
+    font-weight: 700;
+    color: aliceblue;
+}
